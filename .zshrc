@@ -127,5 +127,6 @@ mcd () {
     cd $1
 }
 
+# Set instant prompt to quiet (enabling transient prompt by default)
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
