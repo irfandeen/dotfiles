@@ -3,7 +3,8 @@ Dotfiles for a **NeoVim + tmux + zsh** stack.
 
 **Terminal**: iTerm2/Kitty <br />
 **Zsh Prompt**: powerlevel10k <br />
-**NeoVim Package Manager**: LazyVim <br />
+**Zsh Plugin Manager**: Oh-My-Zsh <br />
+**NeoVim Plugin Manager**: LazyVim <br />
 **OS**: Tested on macOS Sonoma <br />
 
 ### Installation
