@@ -1,11 +1,10 @@
-# My Dotfiles
-# My Dotfiles
-This repo contains all the dotfiles that I use on all of my machines (macOS, Ubuntu).
+# dotfiles
+Dotfiles for a **NeoVim + tmux + zsh** stack.
 
-Software Stack:
-Terminal: iTerm2/Kitty
-Session Manager: tmux
-$SHELL: zsh
-Editor: vim || nvim || VS Code with vim
-OS: macOS 14.2 || Ubuntu 20.04
+Terminal: iTerm2
+Zsh Prompt: powerlevel10k
+NeoVim Package Manager: LazyVim
+OS: Tested on macOS Sonoma, Ubuntu 22.04 & Debian 12
 
+### Installation
+*set-up.sh* coming soon!
