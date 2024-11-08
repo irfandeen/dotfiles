@@ -1,0 +1,43 @@
+# PATHS #
+export PATH="/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.0.0/bin:$PATH"
+export PATH="$PATH:/Users/irfandeen/develop/flutter/bin"
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+#export LANG=en_US.UTF-8
+export JAVA_HOME="/Applications/Android Studio.app/Contents/jre/Contents/Home"
+
+# ALIASES #
+alias python=python3
+alias cs1010="ssh irfan510@pe111.comp.nus.edu.sg"
+alias lss="ls -cGalt"
+alias cdd="cd ~/Desktop"
+alias g++="g++ -std=c++17"
+
+# CUSTOM SCRIPTS #
+export PATH
+export ANDROID_SDK=/Users/irfandeen/Library/Android/sdk
+export PATH=/Users/irfandeen/Library/Android/sdk/platform-tools:$PATH
+export PATH=/usr/bin/node:$PATH
+
+
+export JAVA_HOME=/usr/local/opt/openjdk@17
+export PATH=$JAVA_HOME/bin:$PATH
+source ~/encrypt.sh
+alias gst='git status'
+alias glog='git log --all --decorate --oneline --graph'
+eval 
+            fuck () {
+                TF_PYTHONIOENCODING=$PYTHONIOENCODING;
+                export TF_SHELL=zsh;
+                export TF_ALIAS=fuck;
+                TF_SHELL_ALIASES=$(alias);
+                export TF_SHELL_ALIASES;
+                TF_HISTORY="$(fc -ln -10)";
+                export TF_HISTORY;
+                export PYTHONIOENCODING=utf-8;
+                TF_CMD=$(
+                    thefuck THEFUCK_ARGUMENT_PLACEHOLDER $@
+                ) && eval $TF_CMD;
+                unset TF_HISTORY;
+                export PYTHONIOENCODING=$TF_PYTHONIOENCODING;
+                test -n "$TF_CMD" && print -s $TF_CMD
+            }

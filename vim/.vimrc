@@ -1,9 +1,13 @@
 "  Line Numbers
-set relativenumber
+set number
 
 " Syntax Highlighting & Color Scheme
-syntax enable
-let g:gruvbox_contrast_dark='hard' " Specific to gruvbox theme
+""syntax enable
+""colorscheme monokai
+
+"let g:gruvbox_contrast_dark='hard' " Specific to gruvbox theme
+set t_Co=256
+set background=dark
 colorscheme gruvbox
 
 " White space
@@ -13,7 +17,7 @@ set expandtab
 set smartindent 
 
 " Mouse Configuration
-set mouse=a
+" set mouse=a
 
 " Cursor
 let &t_SI = "\e[6 q"
@@ -26,3 +30,6 @@ inoremap [ []<Esc>ha
 inoremap " ""<Esc>ha
 inoremap ' ''<Esc>ha
 inoremap ` ``<Esc>ha
+
+filetype plugin on
+syntax enable
